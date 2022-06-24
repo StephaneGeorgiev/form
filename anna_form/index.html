@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap" rel="stylesheet">
+    <title>Contact Form</title>
+  </head>
+  <body>
+    <div class="fomr" id="form">
+    <form action="https://formsubmit.co/georgiev_stefan@abv.bg" method="POST" enctype="multipart/form-data>
+      <input type="hidden" name="_subject" value="New email!" />
+      <input type="email" name="email" placeholder="Email Address" />
+      <input
+        type="hidden"
+        name="_next"
+        value="https://yourdomain.co/thankyou.html"
+      />
+      <input type="text" name="name" placeholder="write your massage here"required />
+
+      <input type="file" name="attachment" accept="image/png, image/jpeg">
+      <button type="submit">Send</button>
+    </form>
+    </div>
+    <a href="#popup" class="btn btn-white">Lets cook!</a>
+
+
+
+
+    <div class="popup" id="popup">
+      <div class="popup-content">
+        <div class="popup-left">
+          <img src="img/meal-1.jpg" alt="" class="popup-img">
+          <img src="img/meal-2.jpg" alt="" class="popup-img">
+        </div>
+        <div class="popup-right">
+          <a href="#form" class="popup-close">&times;</a>
+          <h2 class="heading-secondary">Start cooking now</h2>
+          <h3 class="heading-tertiary">Important &ndash; Please read these terms</h3>
+          <p class="popup-text">Welcome to Cookin Food – where we prepare fresh food daily. Cookin Food is a large-scale food production company that creates unique and savory food concepts. As a company founded by restaurateurs, bakers and chefs; it is our fine dining and international restaurant experience that sets us apart from our counterparts on the market today. We know that every client is unique yet our job remains the same: create delectable food, with a stunning presentation that perfectly fit our client’s targets and brand identity.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, voluptatum.
+          </p>
+          <a href="#" class="btn btn-white">Lets cook!</a>
+        </div>  
+      </div>
+    </div>
+
+
+
+
+    
+
+
+
+
+
+
+
+
+  </body>
+</html>
